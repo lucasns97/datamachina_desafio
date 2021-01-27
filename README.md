@@ -78,7 +78,7 @@ Para executar o problema 2 (Empacotamento), a requisição sobre a API deve ser 
 
 A requisição deve conter um ```json``` preenchido com o campo ```items``` que representa uma lista de itens. Certifique-se que foi adicionado ao header o seguinte campo: ```"Content-Type": "application/json"```. Vale notar que cada item da lista de itens é dado da seguinte forma:
 
-```json
+```
 {
   "name": "Banana",
   "dimentions": {
