@@ -81,7 +81,7 @@ def fibonacci_route(*args, **kwargs):
   
   response = fibo.calculate(input_value)
   
-  return response
+  return response, 200
 
 
 @app.route('/delivery', methods=['POST'])
@@ -118,7 +118,7 @@ def delivery_route(*args, **kwargs):
   
   response = delivery.best_fit(input_items)
   
-  return response
+  return response, 200
 
 # [END ENDPOINT]
 
