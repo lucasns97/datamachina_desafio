@@ -56,9 +56,9 @@ A requisição deve conter uma ```query``` preenchida com o campo ```value``` e 
 #### Exemplo de uso:
 
 ```json
-# Request
+# Request (query)
 
-query = {
+{
   "value": 10
 }
 ```
@@ -93,9 +93,9 @@ A requisição deve conter um ```json``` preenchido com o campo ```items``` que 
 #### Exemplo de uso:
 
 ```json
-# Request
+# Request (json)
 
-json = {
+{
 	"items": [
 		{
 			"name": "Banana",
