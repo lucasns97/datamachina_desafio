@@ -58,7 +58,7 @@ def oauth(request):
 
 @app.route('/fibonacci', methods=['GET'])
 def fibonacci_route(*args, **kwargs):
-  """Rota para controle das mensagens do Bot"""
+  """Rota para o problema 1 (Fibonacci)"""
 
   oauth_response = oauth(request)
 
@@ -86,7 +86,7 @@ def fibonacci_route(*args, **kwargs):
 
 @app.route('/delivery', methods=['POST'])
 def delivery_route(*args, **kwargs):
-  """Rota para controle das mensagens do Bot"""
+  """Rota para o problema 2 (Empacotamento)"""
 
   oauth_response = oauth(request)
 
